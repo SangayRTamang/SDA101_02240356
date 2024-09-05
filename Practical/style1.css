@@ -1,0 +1,90 @@
+h1{
+    display: flex;
+    padding: 50px 200px;
+    flex-wrap: wrap;
+}
+ol{
+    padding: 50px 200px;
+    flex-wrap: wrap;
+}
+.nav{
+    display: block;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    width: 120px;
+    transition-duration: 0.5s;
+    border-radius: 0.5cap;
+}
+.nav:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    transform: translateX(25px);
+}
+
+.eve{
+    display: block;
+    background-color: aquamarine;
+    width: 120px;
+    border-radius: 0.5cap;
+    color: palevioletred;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+.eve:hover{
+    background-color: lawngreen;
+    color: blueviolet;
+    cursor: pointer;
+    transform: translateX(25px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ul{
+    font-size: 25px;
+    padding: 50px 200px;
+    background-color: grey;
+}
+
+li{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(93, 223, 252);
+}
+
+dd{
+    color: blue;
+} */

@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main{
+    display: flex;
+    background-color: grey;
+    width: 175px;
+    padding: 50px 200px;
+    border-radius: 0.5cap;
+}
+
+@media screen and(max-width: 600px){
+    main{
+        font-size: 50px;
+        background-color: aquamarine;
+
+    }
+}
+
