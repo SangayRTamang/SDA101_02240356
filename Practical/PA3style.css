@@ -1,0 +1,16 @@
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: Black;
+    font-size: larger;
+}
+
+.Navbar{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    
+}
+
+.img{
+    padding: left;
+}
