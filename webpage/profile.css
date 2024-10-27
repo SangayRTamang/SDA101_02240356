@@ -1,0 +1,807 @@
+.nav {
+    background: #393939;
+    border-radius: 18px;
+    padding: 7px 11px 7px 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 276px;
+    position: absolute;
+    left: 1074px;
+    top: 70px;
+  }
+.homepage,
+.homepage * {
+  box-sizing: border-box;
+}
+.homepage {
+  background: #393939;
+  height: 4096px;
+  position: relative;
+  overflow: hidden;
+}
+.herobox {
+  background: #393939;
+  width: 1198px;
+  height: 552px;
+  position: absolute;
+  left: 170px;
+  top: 272px;
+  overflow: hidden;
+}
+.welcome-to-my-webpage {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  position: absolute;
+  left: 583px;
+  top: 127px;
+  width: 615px;
+  height: 225px;
+}
+.frame-7 {
+  border-radius: 25px;
+  width: 435px;
+  height: 552px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.pbutton {
+  background: #8cbeb2;
+  border-radius: 13px;
+  padding: 14px 33px 14px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 615px;
+  top: 411px;
+  overflow: hidden;
+}
+.let-s-talk {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.sangay-rinchen-tamang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: 74px;
+  top: 77px;
+}
+.frame-21 {
+  background: #88805f;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 1024px;
+  overflow: hidden;
+}
+.frame-25 {
+  width: 1259px;
+  height: 734px;
+  position: absolute;
+  left: 91px;
+  top: 159px;
+  overflow: hidden;
+}
+.frame-24 {
+  border-radius: 94px;
+  width: 591px;
+  height: 414px;
+  position: absolute;
+  left: 38px;
+  top: 153px;
+  overflow: hidden;
+}
+.programming-refers-to-a-technological-process-for-telling-a-computer-which-tasks-to-perform-in-order-to-solve-problems-you-can-think-of-programming-as-a-collaboration-between-humans-and-computers-in-which-humans-create-instructions-for-a-computer-to-follow-code-in-a-language-computers-can-understand {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Rosario-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 693px;
+  top: 279px;
+  width: 447px;
+  height: 267px;
+}
+.programming {
+  color: #4d2525;
+  text-align: left;
+  font-family: "RobotoSlab-ExtraBold", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  position: absolute;
+  left: 693px;
+  top: 153px;
+}
+.frame-22 {
+  background: #f2ebbf;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 2048px;
+  overflow: hidden;
+}
+.frame-26 {
+  width: 1190px;
+  height: 706px;
+  position: absolute;
+  left: 125px;
+  top: 189px;
+  overflow: hidden;
+}
+.frame-27 {
+  border-radius: 94px;
+  width: 536px;
+  height: 408px;
+  position: absolute;
+  left: 49px;
+  top: 149px;
+  overflow: hidden;
+}
+.gaming-is-the-activity-of-playing-electronic-games-typically-on-a-computer-console-or-mobile-device-it-s-a-form-of-entertainment-that-ranges-from-simple-puzzle-games-to-complex-story-driven-experiences-and-competitive-sports-like-events-unlike-passive-media-like-movies-or-books-gaming-is-interactive-allowing-players-to-make-choices-solve-problems-and-often-collaborate-or-compete-with-others {
+  color: #000000;
+  text-align: left;
+  font-family: "Rosario-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 652px;
+  top: 243px;
+  width: 462px;
+  height: 298px;
+}
+.gaming {
+  color: #000000;
+  text-align: left;
+  font-family: "RocknRollOne-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 652px;
+  top: 149px;
+}
+.frame-23 {
+  background: #f3b562;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 3072px;
+  overflow: hidden;
+}
+.frame-28 {
+  width: 1218px;
+  height: 788px;
+  position: absolute;
+  left: 136px;
+  top: 118px;
+  overflow: hidden;
+}
+.frame-29 {
+  border-radius: 94px;
+  width: 551px;
+  height: 355px;
+  position: absolute;
+  left: 58px;
+  top: 148px;
+  overflow: hidden;
+}
+.web-design-refers-to-the-design-of-websites-it-usually-refers-to-the-user-experience-aspects-of-website-development-rather-than-software-development-web-design-used-to-be-focused-on-designing-websites-for-desktop-browsers {
+  color: #000000;
+  text-align: left;
+  font-family: "Rosario-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 675px;
+  top: 274px;
+  width: 409px;
+  height: 213px;
+}
+.web-desgin {
+  color: #000000;
+  text-align: left;
+  font-family: "Rosario-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 675px;
+  top: 173px;
+}
+
+.portfolio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+
+.portfolio,
+.portfolio * {
+  box-sizing: border-box;
+}
+.portfolio {
+  background: #393939;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sangay-rinchen-tamang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: 66px;
+  top: 42px;
+}
+.nav {
+  background: #393939;
+  border-radius: 18px;
+  padding: 7px 11px 7px 17px;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 276px;
+  position: absolute;
+  right: 109px;
+  top: 35px;
+}
+.portfolio2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.frame-8 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 66px;
+  top: 117px;
+  overflow: hidden;
+}
+.frame-9 {
+  width: 302px;
+  height: 174px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.user-experience-ux-design-is-the-process-design-teams-use-to-create-products-that-provide-meaningful-and-relevant-experiences-to-users {
+  color: #000000;
+  text-align: left;
+  font-family: "Margarine-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 182px;
+  width: 280px;
+  height: 87px;
+}
+.pbutton {
+  background: #8cbeb2;
+  border-radius: 13px;
+  padding: 14px 33px 14px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 95px;
+  top: 289px;
+  overflow: hidden;
+}
+.let-s-talk {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.frame-11 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 66px;
+  top: 515px;
+  overflow: hidden;
+}
+.frame-82 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 381px;
+  top: 117px;
+  overflow: hidden;
+}
+.web-development-is-the-process-of-building-and-maintaining-websites-and-web-applications {
+  color: #000000;
+  text-align: left;
+  font-family: "Margarine-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 182px;
+  width: 280px;
+  height: 87px;
+}
+.frame-12 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 381px;
+  top: 515px;
+  overflow: hidden;
+}
+.frame-92 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 696px;
+  top: 117px;
+  overflow: hidden;
+}
+.frame-13 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 696px;
+  top: 515px;
+  overflow: hidden;
+}
+.frame-10 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 1011px;
+  top: 117px;
+  overflow: hidden;
+}
+.frame-14 {
+  background: #f3b562;
+  width: 303px;
+  height: 349px;
+  position: absolute;
+  left: 1011px;
+  top: 515px;
+  overflow: hidden;
+}
+
+.about,
+.about * {
+  box-sizing: border-box;
+}
+.about {
+  background: #393939;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sangay-rinchen-tamang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: 91px;
+  top: 76px;
+  width: 193px;
+  height: 20px;
+}
+.nav {
+  background: #393939;
+  border-radius: 18px;
+  padding: 7px 11px 7px 17px;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 276px;
+  height: 31px;
+  position: absolute;
+  right: 120px;
+  top: 66px;
+}
+.portfolio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.about2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.frame-30 {
+  background: #8cbeb2;
+  width: 1069px;
+  height: 580px;
+  position: absolute;
+  left: 172px;
+  top: 236px;
+  overflow: hidden;
+}
+.rectangle-1 {
+  border-radius: 141px;
+  width: 380px;
+  height: 523px;
+  position: absolute;
+  left: 79px;
+  top: 22px;
+  object-fit: cover;
+}
+.hello-everyone {
+  color: #000000;
+  text-align: left;
+  font-family: "Salsa-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 526px;
+  top: 125px;
+}
+.my-name-is-sangay-rinchen-tamang-and-i-am-currently-a-student-pursuing-bachelor-s-degree-in-software-engineering-this-is-my-first-semester-and-this-is-my-first-web-page-that-i-ve-made-for-my-portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "Scada-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 535px;
+  top: 224px;
+  width: 337px;
+  height: 164px;
+}
+
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: #393939;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sangay-rinchen-tamang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  left: 60px;
+  top: 65px;
+}
+.nav {
+  background: #393939;
+  border-radius: 18px;
+  padding: 7px 11px 7px 17px;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 276px;
+  position: absolute;
+  left: 1042px;
+  top: 54px;
+}
+.portfolio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.contact2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.frame-19 {
+  background: #f2ebbf;
+  border-radius: 24px;
+  width: 736px;
+  height: 439px;
+  position: absolute;
+  left: 536px;
+  top: 198px;
+  overflow: hidden;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.your-email {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  left: 91px;
+  top: 141px;
+}
+.line-1 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 385px;
+  height: 0px;
+  position: absolute;
+  left: 95px;
+  top: 168px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.your-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  left: 91px;
+  top: 82px;
+}
+.line-12 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 385px;
+  height: 0px;
+  position: absolute;
+  left: 95px;
+  top: 109px;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.country {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  left: 91px;
+  top: 200px;
+}
+.line-13 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 385px;
+  height: 0px;
+  position: absolute;
+  left: 95px;
+  top: 227px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.profession {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  left: 91px;
+  top: 259px;
+}
+.line-14 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 385px;
+  height: 0px;
+  position: absolute;
+  left: 95px;
+  top: 286px;
+}
+.pbutton {
+  background: #8cbeb2;
+  border-radius: 13px;
+  padding: 14px 33px 14px 33px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 91px;
+  top: 336px;
+  overflow: hidden;
+}
+.let-s-talk {
+  color: #000000;
+  text-align: left;
+  font-family: "RobotoFlex-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: relative;
+}
+.mage-direction-up {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 104px;
+  top: 391px;
+  overflow: hidden;
+}
+.let-s-talk-about-our-project {
+  color: #dd3a3a;
+  text-align: left;
+  font-family: "RobotoSlab-Black", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  position: absolute;
+  left: 98px;
+  top: 202px;
+  width: 264px;
+  height: 252px;
+}
+.frame-20 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 98px;
+  top: 594px;
+}
+.icon-park-twotone-facebook {
+  flex-shrink: 0;
+  width: 59px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group {
+  height: auto;
+  position: absolute;
+  left: 14.75px;
+  top: 6.25px;
+  overflow: visible;
+}
+.icon-park-twotone-youtube {
+  flex-shrink: 0;
+  width: 66px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group2 {
+  height: auto;
+  position: absolute;
+  left: 6.87px;
+  top: 14.58px;
+  overflow: visible;
+}
+.icon-park-twotone-instagram {
+  flex-shrink: 0;
+  width: 63px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group3 {
+  height: auto;
+  position: absolute;
+  left: 7.88px;
+  top: 7.5px;
+  overflow: visible;
+}
