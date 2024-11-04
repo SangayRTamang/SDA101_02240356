@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Card</title>
+  <style>
+    user-profile {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      margin: 1em;
+    }
+  </style>
+</head>
+<body>
+
+<user-profile name="Sangay Rinchen Tamang" role="Software Engineer"></user-profile>
+
+<script>
+  class UserProfile extends HTMLElement {
+    constructor() {
+      super();
+
+      const shadow = this.attachShadow({ mode: 'open' });
+
+      const template = document.createElement('template');
+      template.innerHTML = `
+        <style>
+          .card {
+            border: 1px solid #ccc;
+            padding: 16px;
+            border-radius: 8px;
+            max-width: 200px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0;
+          }
+          .role {
+            color: #666;
+            font-size: 0.9em;
+            margin: 8px 0 0;
+          }
+        </style>
+        <div class="card">
+          <p class="name"></p>
+          <p class="role"></p>
+        </div>
+      `;
+
+      shadow.appendChild(template.content.cloneNode(true));
+
+      this.nameElement = shadow.querySelector('.name');
+      this.roleElement = shadow.querySelector('.role');
+    }
+    connectedCallback() {
+      this.nameElement.textContent = this.getAttribute('name') || 'Unknown';
+      this.roleElement.textContent = this.getAttribute('role') || 'No role specified';
+    }
+    static get observedAttributes() {
+      return ['name', 'role'];
+    }
+    attributeChangedCallback(name, oldValue, newValue) {
+      if (name === 'name') {
+        this.nameElement.textContent = newValue;
+      } else if (name === 'role') {
+        this.roleElement.textContent = newValue;
+      }
+    }
+  }
+  customElements.define('user-profile', UserProfile);
+</script>
+
+</body>
+</html>
